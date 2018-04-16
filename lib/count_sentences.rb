@@ -15,6 +15,8 @@ class String
   end
 
   def count_sentences
+    how_many = []
+    how_many << self.split(".","!","?")
 
   end
 end
