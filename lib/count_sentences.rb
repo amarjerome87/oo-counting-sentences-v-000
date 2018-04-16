@@ -16,12 +16,9 @@ class String
 
   def count_sentences
     how_many = []
-    if x = self.split(".")
-      how_many << x
-    elsif y = self.split("!")
-      how_many << y
-    elsif z = self.split("?")
+    if z = self.split("?")
       how_many << z
+    else 
     end
     binding.pry
     return how_many.count
