@@ -16,10 +16,11 @@ class String
 
   def count_sentences
     how_many = []
-    if z = self.split(" ! "," ? ") || y = self.split(" . ")
+    if z = self.split(" ! "," ? ") 
       how_many << z && how_many << y
     else
-        end
+    end
+
     return how_many.count
 
   end
