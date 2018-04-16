@@ -16,8 +16,8 @@ class String
 
   def count_sentences
     how_many = []
-    if z = self.split(" ! "," ? ")
-      how_many << z 
+    if z = self.split(" !"," ?")
+      how_many << z
     else
     end
 
