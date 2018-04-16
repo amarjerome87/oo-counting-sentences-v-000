@@ -22,8 +22,8 @@ class String
       how_many << y
     elsif z = self.split("?")
       how_many << z
-      binding.pry
-    end 
+    end
+    binding.pry
     return how_many.count
 
   end
