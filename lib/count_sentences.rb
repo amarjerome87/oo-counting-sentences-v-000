@@ -23,6 +23,7 @@ class String
     elsif z = self.split("?")
       how_many << z
       binding.pry
+    end 
     return how_many.count
 
   end
