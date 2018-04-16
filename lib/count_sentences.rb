@@ -21,7 +21,8 @@ class String
     elsif y = self.split("!")
       how_many << y
     elsif z = self.split("?")
-      how_many << z 
+      how_many << z
+      binding.pry
     return how_many.count
 
   end
