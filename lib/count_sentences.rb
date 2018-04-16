@@ -18,7 +18,7 @@ class String
     how_many = []
     if z = self.split(" ! "," ? ")
       how_many << z
-    else
+    elsif y = self.split(" . ")
     end
     return how_many.count
 
