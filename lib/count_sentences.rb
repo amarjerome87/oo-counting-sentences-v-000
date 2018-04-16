@@ -15,15 +15,9 @@ class String
   end
 
   def count_sentences
-    how_many = []
-    if z = self.split(" ?") || y = self.split("!") || x = self.split(".")
-      how_many << x
-      how_many << y
-      how_many << z
-    else
-    end
+     z = self.split(/\.+|?|\!+|/)
     binding.pry
-    return how_many.count
+    return z.count
 
   end
 end
