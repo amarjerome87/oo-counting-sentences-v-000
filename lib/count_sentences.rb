@@ -16,7 +16,8 @@ class String
 
   def count_sentences
     how_many = []
-    how_many << self.split(".")
+    if x = self.split(".")
+      how_many << x
     return how_many.count
 
   end
